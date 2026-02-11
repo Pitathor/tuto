@@ -6,20 +6,29 @@ Tu as soif de connaissances et tu veux apprendres les bases du radar ? Alors n'a
 
 D'abord télécharges le fichier zip contenant le cours et crées un dossier sur ton bureau pour accueillir son contenu. Afin d'avoir la totalité du contenu, récupéres le dossier **Images** sur le NAS de l'unité, que tu placeras ensuite dans le dossier **Chapitres** du cours.
 
-## Création du Jupyter book
+### Environnement Python
 
-Ouvres une instance de commande python et rentres les commandes suivantes : 
+Pour pouvoir faire fonctionner correctement le tutoriel, quelques packages sont nécessaires. Ouvres une instance de commande python et rentres les commandes suivantes :
 
 ```sh
 # On se place dans le bon répertoire de travail. Copies le chemin du dossier contenant le cours sur ton bureau et rentres la commande suivante
 cd "le_dossier_où_se_trouve_le_Book"
+# Installes les packages
+pip install -r requirements.txt
+```
+
+### Création du Jupyter book
+
+Une fois l'installation complétée, tu devrais pouvoir ouvrir le tutoriel avec : 
+
+```sh
 # Ouvre le jupyter book 
 jupyter book start
 ```
 
-## Compilation en temps réel
+### Compilation en temps réel
 
-Tu as la possibilité de compiler les pages du cours en temps réel. Pour cela il te faut créer une instance jupyter lab avec les commandes suivantes:
+Tu as la possibilité de compiler les pages du cours en temps réel avec le bouton **ON** 23FB. Pour cela il te faut créer une instance jupyter lab avec les commandes suivantes :
 
 ```sh
 # Rebelotte, places toi dans le bon répertoire.
