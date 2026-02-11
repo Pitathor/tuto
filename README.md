@@ -28,7 +28,7 @@ jupyter book start
 
 ### Compilation en temps réel
 
-Tu as la possibilité de compiler les pages du cours en temps réel avec le bouton **ON** 23FB. Pour cela il te faut créer une instance jupyter lab avec les commandes suivantes :
+Tu as la possibilité de compiler les pages du cours en temps réel avec le bouton **ON** U+23FC. Pour cela il te faut créer une instance jupyter lab avec les commandes suivantes :
 
 ```sh
 # Rebelotte, places toi dans le bon répertoire.
