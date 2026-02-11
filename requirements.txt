@@ -1,0 +1,4 @@
+numpy
+jupyter--book
+jupyter lab
+ipywidgets
