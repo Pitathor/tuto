@@ -1,10 +1,14 @@
 # Tutoriel d'introduction au radar et traitement du signal
 
-Tu as soif de connaissances et tu veux apprendres les bases du radar ? Alors n'attends plus et plonges toi dans ce cours. Pour cela il te suffit d'un ordinateur avec un environnement Python et des quelques lignes de commandes ci-dessous.
+Tu as soif de connaissances et tu veux apprendres les bases du radar ? Alors n'attends plus et plonges toi dans ce petit tutoriel. Pour cela il te suffit d'un ordinateur avec un environnement Python et des quelques lignes de commandes ci-dessous.
 
 ## Installation
 
-D'abord télécharges le fichier zip contenant le cours et crées un dossier sur ton bureau pour accueillir son contenu. Afin d'avoir la totalité du contenu, récupéres le dossier **Images** sur le NAS de l'unité, que tu placeras ensuite dans le dossier **Chapitres** du cours.
+Deux options s'offrent à toi :
+- télécharger le fichier zip contenant le cours et créer un dossier sur ton bureau pour accueillir son contenu.
+- ou simplement créer un clone du dépot gitlab de l'unité sur ta machine. Cette option a l'avantage de te permettre de signaler des erreurs, faire des commentaires ou demander une précision via gitlab et une merge request (**ATTENTION à ne pas merge !**). Si tu ne sais pas comment faire, jettes un oeil au README ici <https://gitlab.onera.net/data/signal/signal_toolbox/-/blob/2ffd78e907b957f437eb3508a191a3fc3f700233/README.md>
+
+Afin d'avoir la totalité du contenu, récupéres le dossier **Images** sur le NAS de l'unité, que tu placeras ensuite dans le dossier **Chapitres** du cours.
 
 ### Environnement Python
 
@@ -28,16 +32,16 @@ jupyter book start
 
 ### Compilation en temps réel
 
-Tu as la possibilité de compiler les pages du cours en temps réel avec le bouton **ON** &#x23FB;. Pour cela il te faut créer une instance jupyter lab avec les commandes suivantes :
+Tu as la possibilité de compiler les pages du cours en temps réel avec le bouton **ON**. Pour cela il te faut créer une instance jupyter lab avec les commandes suivantes :
 
 ```sh
 # Rebelotte, places toi dans le bon répertoire.
-cd "path"
+cd "le_dossier_où_se_trouve_le_Book"
 # Ouvre jupyter lab qui sera connecté à ton jupyter book 
 jupyter lab --NotebookApp.token=tuto --NotebookApp.allow_origin='http://localhost:3000'
 ```
 
-Une fois ceci fait, tu verras apparaître en haut de chaque page un bouton ON qui te permettra d'activer la compilation des cellules codes de la page. Tu peux même par la suite, ouvrir chaque page dans jupyter lab pour les modifier. 
+Une fois ceci fait, tu pourras compiler les cellules codes de la page. Tu peux même par la suite, ouvrir chaque page dans jupyter lab pour les modifier à ta guise. 
 
 
 
