@@ -8,7 +8,7 @@ Deux options s'offrent à toi :
 - télécharger le fichier zip contenant le cours et créer un dossier sur ton bureau pour accueillir son contenu.
 - ou simplement créer un clone du dépot gitlab de l'unité sur ta machine. Cette option a l'avantage de te permettre de signaler des erreurs, faire des commentaires ou demander une précision via gitlab et une merge request (**ATTENTION à ne pas merge !**). Si tu ne sais pas comment faire, jettes un oeil au README ici <https://gitlab.onera.net/data/signal/signal_toolbox/-/blob/2ffd78e907b957f437eb3508a191a3fc3f700233/README.md>
 
-Afin d'avoir la totalité du contenu, récupéres le dossier **Images** sur le NAS de l'unité, que tu placeras ensuite dans le dossier **Chapitres** du cours.
+Afin d'avoir la totalité du contenu, récupéres le dossier **Images** sur le NAS de l'unité dans le dossier 'data', que tu placeras ensuite dans le dossier **Chapitres** du cours.
 
 ### Environnement Python
 
@@ -23,16 +23,18 @@ pip install -r requirements.txt
 
 ### Création du Jupyter book
 
-Une fois l'installation complétée, tu devrais pouvoir ouvrir le tutoriel avec : 
+Une fois l'installation complétée, lance l'application jupyter book depuis le dossier avec la commande: 
 
 ```sh
 # Ouvre le jupyter book 
 jupyter book start
 ```
 
+Tu devrais alors avoir la possibilité d'ouvrir (si cela ne se fait pas automatiquement) un site en local à l'adresse suivante <http://localhost:3000>. La totalité du tutoriel est compilée sous la forme d'un livre en ligne dans lequel tu peux naviguer comme bon te semble.
+
 ### Compilation en temps réel
 
-Tu as la possibilité de compiler les pages du cours en temps réel avec le bouton **ON**. Pour cela il te faut créer une instance jupyter lab avec les commandes suivantes :
+Tu as également la possibilité de compiler les pages du cours en temps réel avec le bouton **ON**. Pour cela il te faut créer une instance jupyter lab avec les commandes suivantes :
 
 ```sh
 # Rebelotte, places toi dans le bon répertoire.
